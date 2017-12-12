@@ -1,0 +1,314 @@
+/* Responsive iFrame -- 2 Dec 13 - added by NK to accommodate a Google calendar placed in an iframe */
+ 
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.bigred {font-size:55px; color:red;}
+
+@media(max-width:970px){
+	#container{padding-top:5px;}
+		header{
+		margin:15px auto 20px auto;
+		max-width:650px;	
+		}
+			header h1 a{
+			background:url(/wp-content/themes/opne/img/logo.svg) no-repeat;
+			background-size:200px 45px;
+			height:45px;
+			margin:0 0 0 25px;
+			width:200px;
+			}
+			.lt-ie9 header h1 a{background:url(/wp-content/themes/opne/img/logo-small.png) no-repeat;}
+			header nav{
+			clear:both;
+			margin:10px 0 0 0;
+			text-align:center;
+			width:100%;
+			}
+				header nav li:first-child{margin-left:0;}
+			header form{margin:17px 125px 0 0;}
+			header section ul{
+			right:20px;
+			top:15px;
+			}
+		.col1-2 section div{
+		-moz-column-count:1;
+		-webkit-column-count:1;
+		column-count:1;
+		}	
+		.col1-2 article.left, .col1-2 article.right{
+		float:none;
+		width:auto;	
+		}
+}
+
+@media(max-width:768px){
+	.home .col1{width:48%;}
+	.home .col2{
+	float:right;
+	width:48%;
+	}
+	.home .col3{
+	clear:both;
+	float:none;
+	width:100%;
+	}
+	
+  #tagline {
+    font-family:"museo-sans",Helvetica,Arial,sans-serif; 
+    font-weight:bold;
+	font-style:normal; 
+	font-size:.7rem; 
+	margin:-18px 0 12px 3px; 
+	color:#404041; 
+	text-align:left;
+	background-color: #f2f9f1;
+	border-radius:10px;
+	padding:2px 6px;
+	}
+}
+
+@media(max-width:650px){
+	header h1 a{margin:0;}		
+	header section ul{right:0;}
+	header form{margin-right:105px;}
+		header .search-field{width:100px;}
+	.content .col1-2, .content .col3{
+	clear:both;
+	float:none;
+	width:100%;
+	}
+		/*.content .col1-2 section div{
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+		}	*/
+	
+
+}
+
+@media(max-width:500px){
+	header .search-field{width:70px;}
+	.home .col1, .home .col2{
+	clear:both;
+	float:none;
+	width:100%;	
+	}
+		.home .col1 article{
+		float:left;
+		width:31.25%;
+		margin-right:3%;	
+		}
+		.home .col1 article:first-child{width:auto;}
+		.home .col1 article:first-child, .home .col1 article:nth-child(4), .home .col1 article:nth-child(7){margin-right:0;}
+}
+
+@media(max-width:480px){
+	header{
+	margin-bottom:0;
+	position:static;
+	}
+		header h1 a{
+		background:url(/wp-content/themes/opne/img/logo.svg) no-repeat;
+		background-size:300px 68px;
+		float:none;
+		height:68px;
+		margin:0 auto 20px auto;
+		width:300px;
+		}
+		.lt-ie9 header h1 a{background:url(/wp-content/themes/opne/img/logo.png) no-repeat;}
+		#mobileBar{display:block;}
+		
+		#slideout{
+		left:0;
+		position:absolute;
+		top:0;
+		z-index:100;
+		}	
+		#slideout .inner{
+		position:relative;
+		padding:15px 10px 0 10px;
+		}
+			header section{text-align:center;}
+				header section ul{
+				margin:0 0 12px 0;
+				position:static;
+				top:0;	
+				}
+					header section ul li{margin-right:30px;}
+						header section ul li:last-child{margin-right:0;}
+						
+						header section a{
+						display:inline-block;
+						height:40px;
+						overflow:hidden;
+						text-indent:-9999px;
+						width:40px;
+						}
+						header .twitter{background:url(/wp-content/themes/opne/img/icon-twitter.svg) no-repeat;}
+						.lt-ie9 header .twitter{background:url(/wp-content/themes/opne/img/utility2.png) 0 0 no-repeat;}
+						header .rss{background:url(/wp-content/themes/opne/img/icon-rss.svg) no-repeat;}
+						.lt-ie9 header .rss{background:url(/wp-content/themes/opne/img/utility2.png) -40px 0 no-repeat;}
+						header .contact{background:url(/wp-content/themes/opne/img/icon-contact.svg) no-repeat;}
+						.lt-ie9 header .contact{background:url(/wp-content/themes/opne/img/utility2.png) -80px 0 no-repeat;}
+						header .twitter, header .rss, header .contact{background-size:40px 40px;}
+			header form{
+			float:none;
+			margin:0 0 15px 0;
+			margin:0 auto 13px auto;
+			width:192px;
+			}
+				header .search-field{
+				-webkit-border-radius:4px;
+				-moz-border-radius:4px;
+				border-radius:4px;
+				margin:0 auto;
+				width:180px;
+				}
+				header .search-submit{display:none;}
+			header h2{
+			background:#257a9e;
+			-webkit-border-radius:4px 4px 0 0;
+			-moz-border-radius:4px 4px 0 0;
+			border-radius:4px 4px 0 0;
+			clear:both;
+			color:#fff;
+			display:block;
+			line-height:42px;
+			margin:0 auto;
+			text-align:center;
+			width:auto;	
+			}
+			header nav{margin:0;}
+				header nav ul{
+				background:#fff;
+				-webkit-border-radius:0 0 4px 4px;
+				-moz-border-radius:0 0 4px 4px;
+				border-radius:0 0 4px 4px;
+				margin:0 auto;
+				width:auto;
+				}
+					header nav li{
+					border-bottom:1px solid #c2c3c6;
+					display:block;
+					margin:0;
+					}
+					header nav li:last-child{border:none;}
+						header nav li a{
+						display:block;
+						line-height:40px;	
+						}
+		.js-ready #slideout{
+		background:rgba(0, 93, 132, 0.3);
+		height:100%;
+		left:-75%;
+		width:75%;
+		}
+		.js-ready.lt-ie9 #slideout{background:#4e8093;}
+		/*.js-ready #slideout .inner{background:transparent;}*/
+		.js-ready #container{left:0;}
+		.js-ready.js-nav #container{left:75%;}
+  
+		.csstransforms3d.csstransitions.js-ready #slideout{
+		left:0;
+		-webkit-transform:translate3d(-100%, 0, 0);
+		-moz-transform:translate3d(-100%, 0, 0);
+		-ms-transform:translate3d(-100%, 0, 0);
+		-o-transform:translate3d(-100%, 0, 0);
+		transform:translate3d(-100%, 0, 0);
+		-webkit-backface-visibility:hidden;
+		-moz-backface-visibility:hidden;
+		-ms-backface-visibility:hidden;
+		-o-backface-visibility:hidden;
+		backface-visibility:hidden;
+		}
+		.csstransforms3d.csstransitions.js-ready #container{
+		left:0 !important;
+		-webkit-transform:translate3d(0, 0, 0);
+		-moz-transform:translate3d(0, 0, 0);
+		-ms-transform:translate3d(0, 0, 0);
+		-o-transform:translate3d(0, 0, 0);
+		transform:translate3d(0, 0, 0);
+		-webkit-transition:-webkit-transform 500ms ease;
+		-moz-transition:-moz-transform 500ms ease;
+		-o-transition:-o-transform 500ms ease;
+		transition:transform 500ms ease;
+		-webkit-backface-visibility:hidden;
+		-moz-backface-visibility:hidden;
+		-ms-backface-visibility:hidden;
+		-o-backface-visibility:hidden;
+		backface-visibility:hidden;
+		}		
+		.csstransforms3d.csstransitions.js-nav #container{
+		-webkit-transform:translate3d(75%, 0, 0) scale3d(1, 1, 1);
+		-moz-transform:translate3d(75%, 0, 0) scale3d(1, 1, 1);
+		-ms-transform:translate3d(75%, 0, 0) scale3d(1, 1, 1);
+		-o-transform:translate3d(75%, 0, 0) scale3d(1, 1, 1);
+		transform:translate3d(75%, 0, 0) scale3d(1, 1, 1);
+		}		
+		/*.csstransforms3d.csstransitions.js-ready #slideout .inner{
+		-webkit-transition-delay:ease, 0s;
+		-webkit-transform:translate3d(75%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		-moz-transform:translate3d(75%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		-ms-transform:translate3d(75%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		-o-transform:translate3d(75%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		transform:translate3d(75%, 0, 0) scale3d(0.9, 0.9, 0.9);
+		-webkit-transform-origin:50% 0%;
+		-moz-transform-origin:50% 0%;
+		-ms-transform-origin:50% 0%;
+		-o-transform-origin:50% 0%;
+		transform-origin:50% 0%;
+		}		
+		.csstransforms3d.csstransitions.js-nav #slideout .inner{
+		-webkit-transform:translate3d(0, 0, 0);
+		-moz-transform:translate3d(0, 0, 0);
+		-ms-transform:translate3d(0, 0, 0);
+		-o-transform:translate3d(0, 0, 0);
+		transform:translate3d(0, 0, 0);
+		}*/
+		
+	.home, .content{clear:both;}
+		article{margin-bottom:10px;}
+		.content .col1-2 section div{
+		-moz-column-count:1;
+		-webkit-column-count:1;
+		column-count:1;
+		}
+		.news{display:none;}
+	
+	
+	 #tagline {display:none;}
+
+
+	
+
+}
+
+@media(max-width:420px){
+	.home .col1 article{
+	float:right;
+	margin-right:0;
+	width:48%;	
+	}
+		.home .col1 article:nth-of-type(2n){float:left;}
+		.home .col1 article:first-child{
+		float:none;
+		width:auto;
+		}
+		.home .col2 article:last-child p{display:none;}
+		
+}
