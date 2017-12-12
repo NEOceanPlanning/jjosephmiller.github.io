@@ -1,0 +1,145 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:calendar@northeastoceancouncil.org
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140625
+DTEND;VALUE=DATE:20140626
+DTSTAMP:20140513T185024Z
+UID:l2452ufpctauv3etejlni6jcm0@google.com
+CREATED:20140513T183010Z
+DESCRIPTION:A Northeast Regional Planning Body (NE RPB) Natural Resources P
+ ublic Workshop and fourth NE RPB meeting will take place on June 25-26\, 20
+ 14 in Cambridge\, Massachusetts. The workshop and meeting will both take pl
+ ace at The Charles Hotel (www.charleshotel.com) located at 1 Bennett Street
+  in Cambridge.\n\nFind out more at http://neoceanplanning.org/events/natura
+ l-resources-workshop/.
+LAST-MODIFIED:20140513T183010Z
+LOCATION:The Charles Hotel\, Bennett Street\, Cambridge\, MA\, United State
+ s
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Natural Resources Workshop
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140626
+DTEND;VALUE=DATE:20140627
+DTSTAMP:20140513T185024Z
+UID:tn8in765hp0rv8df8klsofhaug@google.com
+CREATED:20140318T165749Z
+DESCRIPTION:A Northeast Regional Planning Body (NE RPB) Natural Resources P
+ ublic Workshop and fourth NE RPB meeting will take place on June 25-26\, 20
+ 14 in Cambridge\, Massachusetts. The workshop and meeting will both take pl
+ ace at The Charles Hotel (www.charleshotel.com) located at 1 Bennett Street
+  in Cambridge.\n\nFind out more at http://neoceanplanning.org/events/june-2
+ 014-rpb-meeting/.
+LAST-MODIFIED:20140513T182935Z
+LOCATION:The Charles Hotel\, Bennett Street\, Cambridge\, MA\, United State
+ s
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:NE Regional Planning Body Meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140520
+DTEND;VALUE=DATE:20140522
+DTSTAMP:20140513T185024Z
+UID:6vq3ghtru0c7sd0ejhe1hagn98@google.com
+CREATED:20140417T135205Z
+DESCRIPTION:
+LAST-MODIFIED:20140417T135205Z
+LOCATION:Baltimore
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Mid-Atlantic Regional Planning Body in Baltimore
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140422
+DTEND;VALUE=DATE:20140423
+DTSTAMP:20140513T185024Z
+UID:uv5ftqm8nh94diipr29n2pb950@google.com
+CREATED:20140402T214141Z
+DESCRIPTION:
+LAST-MODIFIED:20140402T214159Z
+LOCATION:full Council meeting\, Mystic
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:NEFMC Update at full Council meeting\, Mystic CT
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140227
+DTEND;VALUE=DATE:20140302
+DTSTAMP:20140513T185024Z
+UID:m3shcglpvo1i8335jb278lhbe8@google.com
+CREATED:20140318T165725Z
+DESCRIPTION:
+LAST-MODIFIED:20140318T165725Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Maine Fishermen's Forum\, Rockland ME
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140319T140000Z
+DTEND:20140319T150000Z
+DTSTAMP:20140513T185024Z
+UID:tuiqjfafrbgk2tvcjnmt16uk40@google.com
+CREATED:20140318T165605Z
+DESCRIPTION:
+LAST-MODIFIED:20140318T165605Z
+LOCATION:NY Harbor Safety Committee
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Update at NY Harbor Safety Committee
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140318T160000Z
+DTEND:20140318T170000Z
+DTSTAMP:20140513T185024Z
+UID:c9jhb7m9iind8rgr0j52rs9sl0@google.com
+CREATED:20140318T165539Z
+DESCRIPTION:
+LAST-MODIFIED:20140318T165539Z
+LOCATION:Port Operator's Group\, Boston
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Update at Port Operator's Group\, Boston
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140122T150000Z
+DTEND:20140123T214500Z
+DTSTAMP:20140513T185024Z
+UID:q7rhuejs5b4rqhtmmkbl49roqo@google.com
+CLASS:PUBLIC
+CREATED:20140115T145314Z
+DESCRIPTION:The next Northeast Regional Planning Body meeting will be held 
+ on Wednesday and Thursday\, January 22-23\, 2014 at the <a href="http://cam
+ bridge.hyatt.com/en/hotel/home.html">Hyatt Regency Cambridge</a> located at
+  575 Memorial Drive in Cambridge\, Massachusetts. On Wednesday\, January 22
+ \, the meeting will begin at 10:00 am and adjourn at 6:00 pm and will be fo
+ llowed by a networking reception from 6:15 pm – 7:30 pm. On Thursday\, Janu
+ ary 23\, public registration will begin at 8:30 am\, the meeting starts at 
+ 9:00 am and the meeting will adjourn at 4:45 pm. <a href="http://northeasto
+ ceancouncil.org/wp-content/uploads/2014/01/Agenda-NE-RPB-January22-23-2014M
+ eeting.pdf">See the agenda</a> for additional details\, and <a href="https:
+ //docs.google.com/forms/d/1NlUzWtcxfN63_uTn-W3HZAP0FqEIPfbNwKmSnt9cM8U/view
+ form">please register here</a> to indicate your attendance at the meeting.
+LAST-MODIFIED:20140115T150352Z
+LOCATION:Hyatt Regency Cambridge\, 575 Memorial Dr\, Cambridge\, Massachuse
+ tts 02139\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:January 2014 RPB Meeting
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
